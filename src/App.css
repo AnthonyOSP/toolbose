@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+:root
+{
+  --black: #191919;
+  --ultrablack: #000000;
+  --blackGris : #2B2B2B;
+  --gris : #86868B;
+  --azul : #1561F0;
+  --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  color: var(--black);    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
+body{
+  width: 100%;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow:hidden;
 }
 
-.App-link {
-  color: #61dafb;
+html {
+  background: url(./img/bose-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+@media screen and (max-width: 480px){
+  .App{
+    padding: 0rem 1rem;
   }
 }

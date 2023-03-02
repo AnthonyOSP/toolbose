@@ -1,0 +1,25 @@
+.tbsFamilia {
+    transform: scale(0.9);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.tbsCategoria{
+    transform: scale(0.9);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tbsProducto{
+    transform: scale(0.9);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tbs-Container{
+    display: flex;
+    flex-direction: column;
+}

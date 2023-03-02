@@ -1,0 +1,78 @@
+/* Import Google Font */
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans);
+
+/* RESET */
+
+/* STYLING */
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 750px;
+    background-color: #1a1b1f;
+    color: #8a8a8a;
+    font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+    justify-content: center;
+
+}
+
+.tabs-container {
+    width: 100%;
+    max-width: 620px;
+    min-width: 420px;
+    margin: 20px 0 0 0;
+    user-select: none
+}
+
+/* Style the tabs */
+.tabs {
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    width: auto;
+    height: 50px;
+}
+
+.tabs a {
+    cursor: pointer;
+    padding: 12px 14px;
+    width: 140px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 18px;
+    transition: background 0.1s, color 0.1s;
+    background: linear-gradient(145deg, #1c1d21, #17181c);
+    box-shadow: 3px 3px 6px #101114, -3px -3px 6px #24252a;
+    font-size: 18px;
+}
+
+/* Change background color of tabs on hover */
+.tabs a:hover {
+    background: #141414;
+    color: #bbb;
+}
+
+/* Styling for active tab */
+.tabs a.active-tabs {
+    background-color: #f4f4f4;
+    color: #6a6a6a;
+    cursor: default;
+    background: #1a1b1f;
+    box-shadow: inset 3px 3px 6px #101114, inset -3px -3px 6px #24252a;
+    font-size: 17.5px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: 20px;
+    min-height: 615px;
+    display: none;
+    border-radius: 18px;
+    background: linear-gradient(145deg, #1c1d21, #17181c);
+    box-shadow: 3px 3px 6px #101114, -3px -3px 6px #24252a;
+
+}
+
+.content .active-tabcontent {
+    display: block;
+}

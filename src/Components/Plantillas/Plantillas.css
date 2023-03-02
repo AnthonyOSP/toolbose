@@ -1,0 +1,30 @@
+.p-contenedor {
+    display: flex;
+    width: 80%;
+    height: auto;
+    gap: 25px;
+    background-color: #1a1b1f;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 30px;
+}
+
+.p-left,
+.p-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 1;
+    margin: 0;
+    color: white;
+}
+
+/* LADO DERECHO */
+
+.p-textarea{
+    width: 100%;
+    min-height: 750px;
+    font-size: 13px;
+}
