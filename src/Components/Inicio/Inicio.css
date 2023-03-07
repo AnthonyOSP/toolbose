@@ -37,7 +37,7 @@
     list-style-type: none;
 }
 
-.icon a {
+.icon span {
     display: block;
     width: 64px;
     height: 64px;
@@ -49,7 +49,7 @@
     transition: all 0.5s ease-out;
 }
 
-.icon a:hover {
+.icon span:hover {
     color: white;
     transform: translateX(10px) scale(1.2);
 }
@@ -77,7 +77,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.text a {
+.text span {
     display: block;
     width: 200px;
     height: 64px;
@@ -90,7 +90,7 @@
     transition: all 0.5s ease;
 }
 
-.text a:hover {
+.text span:hover {
     color: white;
     transform: translateX(-14px);
 }

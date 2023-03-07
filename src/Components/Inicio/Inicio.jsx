@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faEnvelope, faCalendarDays, faPen } from '@fortawesome/free-solid-svg-icons'
 import './Inicio.css'
@@ -27,22 +27,19 @@ const Inicio = () => {
             <div id="nav" className="nav">
                 <div className="icon">
                     <ul>
-                        <li><a title="Inicio" href="Inicio"><FontAwesomeIcon icon={faHome} /></a></li>
-                        <li><a href="Plantillas"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                        <li><a href="ContadorSemanas"><FontAwesomeIcon icon={faCalendarDays} /></a></li>
-                        <li><a href="Sugerencias"><FontAwesomeIcon icon={faPen} /></a></li>
+                    <NavLink to='/Inicio'><li><span><FontAwesomeIcon icon={faHome} /></span></li></NavLink>
+                    <NavLink to='/Plantillas'><li><span><FontAwesomeIcon icon={faEnvelope} /></span></li></NavLink>
+                    <NavLink to='/ContadorSemanas'><li><span><FontAwesomeIcon icon={faCalendarDays} /></span></li></NavLink>
+                    <NavLink to='/Sugerencias'><li><span><FontAwesomeIcon icon={faPen} /></span></li></NavLink>
 
                     </ul>
                 </div>
                 <div className="text">
                     <ul>
-                        <li><a title="Inicio" href="Inicio">Inicio</a></li>
-                        <li><a href="Plantillas">Plantillas</a>
-                        </li>
-                        <li><a href="ContadorSemanas">Semanas</a>
-                        </li>
-                        <li><a href="Sugerencias">Sugerencias</a>
-                        </li>
+                    <NavLink to='/Inicio' style={{textDecoration: "none"}}><li><span>Inicio</span></li></NavLink>
+                    <NavLink to='/Plantillas' style={{textDecoration: "none"}}><li><span>Plantillas</span></li></NavLink>
+                    <NavLink to='/ContadorSemanas' style={{textDecoration: "none"}}><li><span>Semanas</span></li></NavLink>
+                    <NavLink to='/Sugerencias' style={{textDecoration: "none"}}><li><span>Sugerencias</span></li></NavLink>
                     </ul>
                 </div>
                 <div className="info">
