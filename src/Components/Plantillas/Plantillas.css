@@ -26,5 +26,6 @@
 .p-textarea{
     width: 100%;
     min-height: 750px;
+    min-width: 100px;
     font-size: 13px;
 }

@@ -1,4 +1,4 @@
-form {
+.sugerencia-form {
     display: flex;
     flex-direction: column;
     width: 700px;
@@ -11,13 +11,13 @@ form {
     gap: 15px;
 }
 
-form * {
+.sugerencia-form * {
     color: #ffffff;
     letter-spacing: 0.5px;
     outline: none;
 }
 
-form h3 {
+.sugerencia-form h3 {
     font-size: 30px;
     font-weight: 500;
     line-height: 42px;

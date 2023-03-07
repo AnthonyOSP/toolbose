@@ -21,7 +21,7 @@ const Plantillas = () => {
             </div>
             <div className="p-right">
                 <span className='p-titulo'>CORREO TERMINADO</span>
-                <form action="">
+                <form action="" className='p-form'>
                     <textarea id="" placeholder='Aqui se mostrara el correo que vas a copiar' className='p-textarea' ></textarea>
                 </form>
             </div>

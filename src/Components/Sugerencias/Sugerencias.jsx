@@ -4,7 +4,7 @@ import './Sugerencias.css'
 const Contacto = () => {
     return (
         <div className='c-background'>
-            <form >
+            <form className='sugerencia-form'>
                 <h3>Agrega tus sugerencias </h3>
                 <input className='input-texto' type="text" placeholder='Nombre y apellido'/>
                 <input className='input-texto' type="text" placeholder='Correo Webhelp'/>
