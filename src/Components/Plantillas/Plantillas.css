@@ -1,14 +1,14 @@
 .p-contenedor {
     display: flex;
-    width: 80%;
+    width: 90%;
     height: auto;
-    gap: 25px;
+    gap: 30px;
     background-color: #1a1b1f;
     border-radius: 20px;
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
-    padding: 30px;
+    padding: 20px;
 }
 
 .p-left,
@@ -24,8 +24,14 @@
 /* LADO DERECHO */
 
 .p-textarea{
-    width: 100%;
-    min-height: 750px;
-    min-width: 100px;
-    font-size: 13px;
+    width: 90%;
+    padding: 15px;
+    min-height: 725px;
+    font-size: 15px;
+    background-color: #f4f4f4;
+    border: 0;
+    color: #6a6a6a;
+    cursor: default;
+    background: #1a1b1f;
+    box-shadow: inset 3px 3px 6px #101114, inset -3px -3px 6px #24252a;
 }
